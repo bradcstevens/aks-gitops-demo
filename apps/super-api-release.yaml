@@ -10,7 +10,7 @@ spec:
       chart: super-api
       reconcileStrategy: ChartVersion
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: super-api
   install:
     createNamespace: true
